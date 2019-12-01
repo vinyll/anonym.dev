@@ -1,0 +1,100 @@
+<meta charset="utf-8">
+<title>Web Apps to be a Better Web Citizen</title>
+
+<article>
+  <img src="images/Screen Shot 2019-12-01 at 14.34.56.png" alt="Signal">
+  <section>
+    <h1>Signal Messenger</h1>
+    <p>Signal is an instant messaging app for short messages, groups messages, phone calls, video calls, sharing medias…</p>
+    <p>Alternatives to Signal can be Telegram, Viber, WeChat, Whatsapp, Allo, Facebook Messenger…</p>
+  </section>
+  <a target=_blank href="https://signal.org">Visit the website</a>
+</article>
+
+<article>
+  <img src="images/Screen Shot 2019-12-01 at 14.38.57.png" alt="Telegram">
+  <section>
+    <h1>Telegram</h1>
+    <p>Telegram is very similar to Signal except it's not open source (you can't access the code and check what it does).</p>
+    <p>Alternatives to Signal can be Signal, Viber, WeChat, Whatsapp, Allo, Facebook Messenger…</p>
+  </section>
+  <a target=_blank href="https://telegram.org">Visit the website</a>
+</article>
+
+<article>
+  <img src="images/Screen Shot 2019-12-01 at 14.45.09.png" alt="Matomo">
+  <section>
+    <h1>Matomo</h1>
+    <p>When you run a website you might need to follow it's activity and view stats. Matomo is there to help.</p>
+    <p>Alternatives to Matomo are Google Analytics and other online stats services.</p>
+  </section>
+  <a target=_blank href="https://matomo.org">Visit the website</a>
+</article>
+
+<article>
+  <img src="images/Screen Shot 2019-12-01 at 14.47.35.png" alt="PixelFed">
+  <section>
+    <h1>PixelFed</h1>
+    <p>PixelFed is a great place where to store and share pictures. Just upload your files there and connect to other photographers or communities of picture people</p>
+    <p>An alternatives to PixelFed is Instagram.</p>
+  </section>
+  <a target=_blank href="https://pixelfed.fr">Visit the website</a>
+</article>
+
+<article>
+  <img src="images/Screen Shot 2019-12-01 at 14.49.34.png" alt="Mastodon">
+  <section>
+    <h1>Mastodon</h1>
+    <p>Mastodon is a microblogging plateform. You can read small article that the community writes and relay, and post you articles or comments too. That's a collaborative communication plateform where you can also have private messages and share media.</p>
+    <p>Alternative to Mastodon are Diaspora, Friendica, Twitter,…</p>
+  </section>
+  <a target=_blank href="https://mastodon.social">Visit the website</a>
+</article>
+
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  article {
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  article > section {
+    position: absolute;
+    margin-bottom: -150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    transition: all .3s;
+  }
+
+  article:hover > section {
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.7);
+  }
+
+  article img {
+    max-width: 100%;
+  }
+
+  article > a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-indent: -200px;
+  }
+</style>
